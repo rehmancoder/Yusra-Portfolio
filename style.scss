@@ -43,6 +43,7 @@ $first: #d0dddd;
   top: 95px;
   transition: 0.5s;
   display: none;
+  z-index: 99;
 }
 .link2 {
   padding: 15px;
@@ -156,10 +157,20 @@ $first: #d0dddd;
       border: 2px solid #9e72f8;
       color: #9e72f8;
       margin-top: 30px;
+      cursor: pointer;
     }
     button:hover {
       background-color: #9e72f8;
       color: $first;
+    }
+    button:hover a {
+      color: white;
+    }
+    a {
+      color: #9e72f8;
+      text-decoration: none;
+      width: 100%;
+      cursor: pointer;
     }
   }
 }

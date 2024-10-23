@@ -43,6 +43,7 @@
   top: 95px;
   transition: 0.5s;
   display: none;
+  z-index: 99;
 }
 
 .link2 {
@@ -163,10 +164,20 @@
   border: 2px solid #9e72f8;
   color: #9e72f8;
   margin-top: 30px;
+  cursor: pointer;
 }
 .porfolio-icons div button:hover {
   background-color: #9e72f8;
   color: #d0dddd;
+}
+.porfolio-icons div button:hover a {
+  color: white;
+}
+.porfolio-icons div a {
+  color: #9e72f8;
+  text-decoration: none;
+  width: 100%;
+  cursor: pointer;
 }
 
 .icons {
